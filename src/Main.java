@@ -11,7 +11,7 @@ public class Main {
 
         Set<MultiplicationVariables> multiplicationVariables = new HashSet<>();
         while (multiplicationVariables.size() < 15) {
-            MultiplicationVariables multiplicationVariables1 = new MultiplicationVariables(random.nextInt(10) +2, random.nextInt(10) + 2);
+            MultiplicationVariables multiplicationVariables1 = new MultiplicationVariables(random.nextInt(9) +2, random.nextInt(9) + 2);
             multiplicationVariables.add(multiplicationVariables1);
             System.out.println(multiplicationVariables1);
         }
